@@ -26,7 +26,7 @@ header {
   padding-right: 30px;
 }
 
-.container {
+.container, .connect-container, .checker-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,6 +42,12 @@ header {
   flex-wrap: wrap;
   height: 456px;
   width: 456px;
+}
+
+.connect-wrap {
+  flex-wrap: wrap;
+  height: 700px;
+  width: 700px;
 }
 
 .square {
