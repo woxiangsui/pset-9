@@ -11,7 +11,7 @@ h1 {
   margin-bottom: 0px;
 }
 
-h2 {
+h2, h3, h4 {
   font-size: 36px;
   font-weight: lighter;
   margin: 2%;
@@ -101,5 +101,38 @@ header {
 #reset-button:hover {
   background-color: black;
   color: white;
+  cursor: pointer;
+}
+
+#xscore {
+  float: left;
+  display: inline;
+  text-align: center;
+  padding-left: 35%;
+  margin: 2%;
+}
+
+#oscore {
+  float: right;
+  display: inline;
+  padding-right: 35%;
+  margin: 2%;
+}
+
+#o-button {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  font-size: 21px;
+  line-height: 40px;
+  margin: 1%;
+  text-align: center;
+  width: 150px;
+}
+
+#o-button:hover {
+  background-color: gray;
+  color: white;
+  font-style: italic;
   cursor: pointer;
 }
