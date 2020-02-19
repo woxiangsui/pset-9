@@ -27,21 +27,34 @@
     <h1>Tic | Tac | Toe</h1>
 
     <div class="container column">
-      <h2>Turn: X</h2>
+          <h2 id="playerTurn">Turn: X</h2>
+          <h4 id="o-button">O First<h4>
 
-      <div class="container wrap" id="board">
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-        <div class="square"></div>
-      </div>
+          <div class="score row">
 
-      <div id="reset-button">Play Again!</div>
-    </div>
-  </body>
-</html>
+            <div id="xscore">
+              <h3>X: </h3>
+              <div id="xpoints">0</div>
+            </div>
+            <div id="oscore">
+              <h3>O: </h3>
+              <div id="opoints">0</div>
+            </div>
+          </div>
+
+          <div class="container wrap" id="board">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+          </div>
+
+          <div id="reset-button">Play Again!</div>
+        </div>
+      </body>
+    </html>
