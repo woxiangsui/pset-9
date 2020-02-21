@@ -46,14 +46,19 @@ header {
 
 .connect-wrap {
   flex-wrap: wrap;
-  height: 700px;
+  height: 600px;
   width: 700px;
+  padding-left: 27.7%;
+  padding-top: 3%;
+
 }
 
 .checker-wrap {
   flex-wrap: wrap;
   height: 640px;
   width: 700px;
+  padding-left: 27.7%;
+  padding-top: 2.6%;
 }
 
 .square {
@@ -71,20 +76,23 @@ header {
 }
 
 .circle {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   background-color: white;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.75);
   display: inline-block;
   user-select: none;
+  margin: 3px;
+  background: url(images/wood.jfif);
 }
 
 .check-square {
-  width: 80px;
-  height: 80px;
+  width: 85px;
+  height: 85px;
   border: 1px solid rgba(0, 0, 0, 0.75);
   user-select: none;
+  background-color: sienna;
 }
 
 #reset-button {
@@ -135,4 +143,8 @@ header {
   color: white;
   font-style: italic;
   cursor: pointer;
+}
+
+#light {
+  background-color: burlywood;
 }
