@@ -20,28 +20,6 @@ h2, h3, h4 {
 header {
   font-size: 30px;
   margin-top: 2%;
-  list-style-type: none;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  text-align: center;
-}
-
-li {
-  float: left;
-  margin-left: 25px;
-}
-
-li a {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  padding: 14px 25px;
-
 }
 
 .home, .ttt, .connect {
@@ -70,9 +48,11 @@ li a {
   flex-wrap: wrap;
   height: 600px;
   width: 700px;
-  padding-left: 27.7%;
-  padding-top: 3%;
-
+  margin-left: 27.7%;
+  margin-top: 3%;
+  border-radius: 25px;
+  padding: 1%;
+  background: lightblue;
 }
 
 .checker-wrap {
@@ -101,14 +81,13 @@ li a {
 }
 
 .circle {
-  width: 90px;
-  height: 90px;
+  width: 85px;
+  height: 85px;
   background-color: white;
   border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.75);
   display: inline-block;
   user-select: none;
-  margin: 3px;
+  margin: 5px;
 }
 
 .check-square {
