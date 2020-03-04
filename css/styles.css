@@ -57,17 +57,6 @@ header {
 
 }
 
-.checker-wrap {
-  flex-wrap: wrap;
-  height: 656px;
-  width: 656px;
-  margin-top: 2.6%;
-  background-image: url(../images/wood.jfif);
-  background-clip: border-box;
-  border: 3px solid chocolate;
-  display: inline-flex;
-}
-
 .square {
   border: 1px solid rgba(0, 0, 0, 0.75);
   font-size: 96px;
@@ -90,14 +79,6 @@ header {
   display: inline-block;
   user-select: none;
   margin: 5px;
-}
-
-.check-square {
-  width: 82px;
-  height: 82px;
-  user-select: none;
-  background-color: brown;
-  opacity: 0.55;
 }
 
 #reset-button {
@@ -148,8 +129,4 @@ header {
   color: white;
   font-style: italic;
   cursor: pointer;
-}
-
-#light {
-  background-color: burlywood;
 }
