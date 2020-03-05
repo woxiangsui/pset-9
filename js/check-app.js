@@ -6,7 +6,6 @@ var score = document.getElementById("score");
 var black_background = document.getElementById("black_background");
 var moveSound = document.getElementById("moveSound");
 var winSound = document.getElementById("winSound");
-
 var windowHeight = window.innerHeight
 || document.documentElement.clientHeight
 || document.body.clientHeight;  ;
