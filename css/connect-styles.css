@@ -1,12 +1,47 @@
 * {
 	border: 0;
 	padding: 0;
+  text-align: center;
+}
+
+header {
+  font-size: 30px;
+  margin-top: 2%;
+  font-family: "Roboto", monospace;
+}
+
+p {
+  font-size: 15px;
 }
 
 #game-board {
-	background: #0074B3;
+  margin: 2%;
+	background: lightblue;
 	width: 730px;
 	cursor: pointer;
+  display: inline-block;
+  border-radius: 25px;
+}
+
+#reset-button {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  font-size: 21px;
+  line-height: 55px;
+  margin: 1%;
+  text-align: center;
+  width: 456px;
+}
+
+#reset-button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.home, .ttt, .connect {
+  padding-right: 30px;
 }
 
 .column {
