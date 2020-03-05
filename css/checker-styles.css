@@ -1,4 +1,7 @@
-body , html{
+* {
+	background-color: mintcream;
+}
+body , html {
 		width: 100%;
 		height : 100%;
 		margin : 0 0;
@@ -6,7 +9,7 @@ body , html{
     text-align: center;
 }
 
-header{
+header {
   margin: 2%;
   font-size: 30px;
   display: inline-block;
@@ -17,29 +20,29 @@ header{
   padding-right: 30px;
 }
 
-.square{
+.square {
 	float: left;
 	width: 80px;
 	height: 80px;
 }
 
-.white_square{
+.white_square {
 	background-color:#F0D2B4;
 }
-.black_square{
+.black_square {
 	background-color :#BA7A3A;
 }
-.clear_float{
+.clear_float {
 	clear: both;
 }
 
-.table{
+.table {
 	position: relative;
 	width: 640px;
 	height: 640px;
 	margin: 0 auto;
 }
-.score{
+.score {
 	background-color: #1aaaad;
 	color: white;
 	display: none;
@@ -65,7 +68,7 @@ header{
   transition: 5s ease-in-out;
 }
 
-.checker{
+.checker {
 	top:10px;
 	left:10px;
 	width: 54px;
@@ -77,7 +80,7 @@ header{
 
 }
 
-.white_checker{
+.white_checker {
 	background: #CC0000;
  -webkit-transition: 0.3s ease-in-out;
 	-moz-transition: 0.3s ease-in-out;
@@ -85,7 +88,7 @@ header{
   transition: 0.3s ease-in-out;
 }
 
-.black_checker{
+.black_checker {
 	background: #00001F;
  -webkit-transition: 0.3s ease-in-out;
 	-moz-transition: 0.3s ease-in-out;
@@ -93,7 +96,7 @@ header{
   transition: 0.3s ease-in-out;
 }
 
-.black_background{
+.black_background {
 	position: fixed;
 	width: 100%;
 	height: 100%;
@@ -121,7 +124,7 @@ header{
   cursor: pointer;
 }
 
-@media only screen and (max-width : 640px){
+@media only screen and (max-width : 640px) {
 	.table{
 		width: 400px;
 		height: 400px;

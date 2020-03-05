@@ -16,7 +16,7 @@ p {
 
 #game-board {
   margin: 2%;
-	background: lightblue;
+	background-color: lightblue;
 	width: 730px;
 	cursor: pointer;
   display: inline-block;
